@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<fieldset>
+    <form name="feedback" action="Ativ4.php" method="POST">
+    <b>o que você achou do site?? <br><br>
+    <input type="radio" value="Avaliação:" name="mb"> <label>Muito bom</label>
+    <input type="radio" value="Avaliação:" name="b"> <label>Bom</label>
+    <input type="radio" value="Avaliação:" name="r"> <label>Regular</label>
+   
+        <br><br>
+    
+    <b>Qual a Seção que você maiis gostou??<br><br>
+
+    <select name="secao">
+        <option value="Em cartaz">Em cartaz</option>
+        <option value="fusca">Em breve</option>
+        <option value="golf">Cinemas</option>
+        <option value="ferrari">Igressos</option>
+    </select>
+
+    <label>Outra:</label>
+    <input type="text" name="Outra" size="20" maxlength="30">
+
+    <br><br>
+
+     <b> Digite seu comentário no campo abaixo: <br>
+    <textarea name="sug" rows="10" cols="40"></textarea> <br>
+
+    <b> Diga-nos como entrar em contato com voê: <br><br>
+    <label>Endereço: </label><input type="text" name="endereco" size="30" maxlength="40"><br/><br/>
+    <label>Nome: </label><input type="text" name="nome" size="30" maxlength="40"><br/><br/>
+    <label>E-mail: </label><input type="text" name="email" size="30" maxlength="40"><br/><br/>
+    <label>Fone: </label><input type="text" name="tel" size="30" maxlength="40"><br/><br/>
+
+    <input type="checkbox" name="novidades"><label>Quero receber as novidades do site por e-mail</label><br>
+    </fieldset>
+    <input type="submit" value="Enviar dados">
+    <input type="reset" value="Limpar Formulário">
+   
+</form>
+</body>
+</html>

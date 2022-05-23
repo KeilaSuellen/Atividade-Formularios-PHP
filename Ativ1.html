@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            background-color: #201b2c;
+            color: #fff;
+        }
+
+        form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50%;
+            background-color: #2f2841;
+            padding: 30px 35px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 40px #00000056;
+        }
+
+        h1 {
+            color: #00FFFF;
+            font-weight: 800;
+            margin: 10;
+        }
+
+        input {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Calculadora de Area e Perimetro</h1>
+    <form name="triangulo" action="Ativ1.php" method="post">
+        <label> Base: </label><input type="text" name="Base"> <br><br>
+        <label> Largura: </label><input type="text" name="largura"><br><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
